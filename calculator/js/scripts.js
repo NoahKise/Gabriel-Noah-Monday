@@ -35,6 +35,7 @@ setTimeout(function compute() {
       case ('x'): window.alert(num1 + "*" + num2 + "=" + (num1 * num2)); break;
       case ('*'): window.alert(num1 + "*" + num2 + "=" + (num1 * num2)); break;
       case ('/'): window.alert(num1 + "/" + num2 + "=" + (num1 / num2)); break;
+      case ('bone'): window.alert ((num1 * num2) + " BONES!"); break;
     }
   }
 

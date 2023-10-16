@@ -30,13 +30,14 @@ setTimeout(function compute() {
 
   {
     switch (operator) {
-      case ('+'): window.alert(num1 + num2); break;
-      case ('-'): window.alert(num1 - num2); break;
-      case ('x'): window.alert(num1 * num2); break;
-      case ('*'): window.alert(num1 * num2); break;
-      case ('/'): window.alert(num1 / num2); break;
+      case ('+'): window.alert(num1 + "+" + num2 + "=" + (num1 + num2)); break;
+      case ('-'): window.alert(num1 + "-" + num2 + "=" + (num1 - num2)); break;
+      case ('x'): window.alert(num1 + "*" + num2 + "=" + (num1 * num2)); break;
+      case ('*'): window.alert(num1 + "*" + num2 + "=" + (num1 * num2)); break;
+      case ('/'): window.alert(num1 + "/" + num2 + "=" + (num1 / num2)); break;
     }
   }
+
   compute()
 }, 100);
 compute()

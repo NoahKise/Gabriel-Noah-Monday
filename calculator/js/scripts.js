@@ -23,7 +23,7 @@
 
 // (compute(num1, operator, num2));
 
-function compute() {
+setTimeout(function compute() {
   const num1 = parseInt(window.prompt("enter a number"))
   const operator = window.prompt("enter an operator")
   const num2 = parseInt(window.prompt("enter a 2nd number"))
@@ -38,5 +38,5 @@ function compute() {
     }
   }
   compute()
-}
+}, 100);
 compute()

@@ -33,6 +33,7 @@ function compute() {
       case ('+'): window.alert(num1 + num2); break;
       case ('-'): window.alert(num1 - num2); break;
       case ('x'): window.alert(num1 * num2); break;
+      case ('*'): window.alert(num1 * num2); break;
       case ('/'): window.alert(num1 / num2); break;
     }
   }

@@ -16,8 +16,18 @@ function compute(num1, operator, num2) {
 }
 
 
+
 const num1 = parseInt(prompt("Enter a number"));
 const operator = prompt("Enter an operator");
 const num2 = parseInt(prompt("Enter another number"));
 
-window.alert(compute(num1, operator, num2));
+(compute(num1, operator, num2));
+
+// window.prompt("enter an operator"){
+//   switch(operator){
+//   case('+'): num1 + num2; break;
+//   case('-'):
+//   case('x'):
+//   case('/'):
+//   }
+// }
